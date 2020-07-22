@@ -13,12 +13,13 @@ export default function About() {
       <Title>About</Title>
       <Container>
         <Paragraph>
-          I'm 26 years old, I live in Brazil, in Tatuí, a town in the
-          countryside of the state of São Paulo. I'm currently studying
-          Information Tecnology Management at FATEC-Tatuí. I started in the
-          dev area in 2017, when I worked in a IT company and I loved it.
-          I really like the JavaScript ecosystem and today I'm 100% focused on
-          studying Node.js, ReactJS, React Native, MongoDB and PostgreSQL.
+        I'm 26 years old, I live in Brazil, in Tatuí, a town in the
+          countryside of the state of São Paulo. I'm graduated in Information
+          Tecnology Management at FATEC-Tatuí. I started in the dev area in
+          2017, when I worked in a IT company and I loved it. I really like the
+          JavaScript ecosystem and today I'm 100% focused on studying Node.js,
+          ReactJS, React Native, MongoDB and PostgreSQL. Actually my main goal
+          is work in a great company and take an exchange program to Canada.
         </Paragraph>
         <TechList>
           {techItem.map(tech => (
