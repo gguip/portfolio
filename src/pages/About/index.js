@@ -5,7 +5,7 @@ import Paragraph from "../../components/Paragraph";
 
 import { Container, TechList, TechItem } from "./styles";
 
-const techItem = ["Node.js", "ReactJS", "React Native", "Express.js", "Redux", "Hooks", "MongoDB", "PostgreSQL"];
+const techItem = ["Node.js", "ReactJS", "React Native", "Express.js", "Redux", "Hooks", "MongoDB", "PostgreSQL", "Saga", "MySQL", "Styled Components", "ElectronJS", "Firebase", "Typescript"];
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
           2017, when I worked in a IT company and I loved it. I really like the
           JavaScript ecosystem and today I'm 100% focused on studying Node.js,
           ReactJS, React Native, MongoDB and PostgreSQL. Actually my main goal
-          is work in a great company and take an exchange program to Canada.
+          is work in a great company and take an exchange program to Vancouver - Canada.
         </Paragraph>
         <TechList>
           {techItem.map(tech => (
