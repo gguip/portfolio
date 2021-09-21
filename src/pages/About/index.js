@@ -13,7 +13,7 @@ export default function About() {
       <Title>About</Title>
       <Container>
         <Paragraph>
-        I'm 26 years old, I live in Brazil, in Tatuí, a town in the
+        I'm 27 years old, I live in Brazil, in Tatuí, a town in the
           countryside of the state of São Paulo. I'm graduated in Information
           Tecnology Management at FATEC-Tatuí. I started in the dev area in
           2017, when I worked in a IT company and I loved it. I really like the

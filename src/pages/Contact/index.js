@@ -49,7 +49,7 @@ export default function Contact() {
             Daniel
           </a>
         </p>
-        <p>© Copyright 2020 copyright - All Rights Reserved</p>
+        <p>© Copyright 2021 copyright - All Rights Reserved</p>
         <br />
         <p>
           <ContactLink
