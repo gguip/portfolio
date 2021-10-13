@@ -1,7 +1,8 @@
 import imgGobarber from "../../assets/projects/gobarber.jpg";
 import imgDevMaps from "../../assets/projects/devmaps.jpg";
-import imgBeef from "../../assets/projects/beefsystem.jpg"
-import imgLet from "../../assets/projects/letmeask.jpg"
+import imgBeef from "../../assets/projects/beefsystem.jpg";
+import imgLet from "../../assets/projects/letmeask.jpg";
+import imgTau from "../../assets/projects/taudynamix.jpg";
 // import imgRocketshoes from "../../assets/projects/rocketshoes.jpg";
 // import imgRocketfy from "../../assets/projects/rocketfy.jpg";
 // import imgGitRepositories from "../../assets/projects/gitrepositories.jpg";
@@ -44,15 +45,15 @@ const posts = [
     // code: "https://github.com/gguip",
     look: "https://dashboard.beefsystem.com.br/"
   },
-  // {
-  //   id: 5,
-  //   title: "Rocketfy",
-  //   description: `The Rocketfy is an application that copy of the Pipefy, with the aim practice the drag and drop functionality.`,
-  //   techs: "reactjs - react-dnd - styled-components",
-  //   image: imgRocketfy,
-  //   code: "https://github.com/gguip",
-  //   look: "https://github.com/gguip"
-  // },
+  {
+    id: 5,
+    title: "Tau Dynamix",
+    description: `The Tau Dynamix is an application that was made by using React.`,
+    techs: "reactjs",
+    image: imgTau,
+    // code: "https://github.com/gguip",
+    look: "https://sid-online.com/login"
+  },
   // {
   //   id: 6,
   //   title: "GitRepositories",

@@ -29,6 +29,7 @@ export default function Contact() {
           Feel free to send me a message.
         </Link>
         <br />
+        <br />
         <p>
           Made with ♥ by{" "}
           <a
@@ -52,6 +53,7 @@ export default function Contact() {
         <p>© Copyright 2021 copyright - All Rights Reserved</p>
         <br />
         <p>
+        <br />
           <ContactLink
             href="https://github.com/gguip"
             target="_blank"
