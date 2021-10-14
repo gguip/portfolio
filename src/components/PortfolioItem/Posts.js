@@ -3,6 +3,8 @@ import imgDevMaps from "../../assets/projects/devmaps.jpg";
 import imgBeef from "../../assets/projects/beefsystem.jpg";
 import imgLet from "../../assets/projects/letmeask.jpg";
 import imgTau from "../../assets/projects/taudynamix.jpg";
+import imgDominos from "../../assets/projects/dominos.jpg";
+import imgDeliverize from "../../assets/projects/deliverize.jpg";
 // import imgRocketshoes from "../../assets/projects/rocketshoes.jpg";
 // import imgRocketfy from "../../assets/projects/rocketfy.jpg";
 // import imgGitRepositories from "../../assets/projects/gitrepositories.jpg";
@@ -49,21 +51,29 @@ const posts = [
     id: 5,
     title: "Tau Dynamix",
     description: `The Tau Dynamix is an application that was made by using React.`,
-    techs: "reactjs",
+    techs: "ReactJS",
     image: imgTau,
     // code: "https://github.com/gguip",
     look: "https://sid-online.com/login"
   },
-  // {
-  //   id: 6,
-  //   title: "GitRepositories",
-  //   description: `The GitRepositories is a project to list repositories and issues for github users.`,
-  //   techs: "reactjs - react router dom",
-  //   image: imgGitRepositories,
-  //   code: "https://github.com/gguip",
-  //   look: "https://github.com/gguip"
-  //   // look: "https://danielneris-git-repositories.netlify.com/"
-  // }
+  {
+    id: 6,
+    title: "Domino's Backoffice",
+    description: `The Domino's Backoffice is a project to list and manage orders for Domino's Brazil.`,
+    techs: "ReactJS - Bootstrap - Redux - Saga",
+    image: imgDominos,
+    // code: "https://github.com/gguip",
+    // look: "https://github.com/gguip"
+  },
+  {
+    id: 7,
+    title: "Deliverize",
+    description: `The Deliverize is a PDV (Ponto de Venda) project .`,
+    techs: "ReactJS - Bootstrap - Redux - Saga - ElectronJS - Sass",
+    image: imgDeliverize,
+    // code: "https://github.com/gguip",
+    // look: "https://github.com/gguip"
+  }
 ];
 
 export default posts;
