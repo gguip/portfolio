@@ -5,32 +5,38 @@ import imgLet from "../../assets/projects/letmeask.jpg";
 import imgTau from "../../assets/projects/taudynamix.jpg";
 import imgDominos from "../../assets/projects/dominos.jpg";
 import imgDeliverize from "../../assets/projects/deliverize.jpg";
-// import imgRocketshoes from "../../assets/projects/rocketshoes.jpg";
-// import imgRocketfy from "../../assets/projects/rocketfy.jpg";
-// import imgGitRepositories from "../../assets/projects/gitrepositories.jpg";
-// import imgTindev from "../../assets/projects/tindev.jpg";
+import imgFruitShop from "../../assets/projects/fruit-shop.png";
 
 const posts = [
   {
     id: 1,
+    title: "Fruit Shop",
+    description: `The Fruit Shop is a website that you can buy fruits using Stripe payment gateway.`,
+    techs: "Next.JS - Zustand - Lotties - Stripe - TypeScript",
+    image: imgFruitShop,
+    code: "https://github.com/gguip/nextjs13-store",
+    look: "https://fruit-store-nine.vercel.app/"
+  },
+  {
+    id: 2,
     title: "GoBarber",
     description: `The GoBarber is an application for scheduling time in barber shops.`,
     techs: "NodeJS - ExpressJS - ReactJS - Redux - Styled-Components",
     image: imgGobarber,
     code: "https://github.com/gguip/GoBarber",
-    // look: "https://github.com/gguip/GoBarber"
+    look: undefined
   },
   {
-    id: 2,
+    id: 3,
     title: "DevsMap",
     description: `The DevMaps is an application to search for developers around you for technologies.`,
     techs: "NodeJS - ExpressJS - ReactJS - Redux - React Native",
     image: imgDevMaps,
     code: "https://github.com/gguip/SemanaOmnistack10",
-    // look: "https://gguip-semanaomni10.netlify.app/"
+    look: undefined
   },
   {
-    id: 3,
+    id: 4,
     title: "LetMeAsk",
     description: `The LetMeAsk is a Question and Answer application`,
     techs: "Firebase - ReactJS - Hooks - Typescript",
@@ -39,7 +45,7 @@ const posts = [
     // look: "https://github.com/gguip"
   },
   {
-    id: 4,
+    id: 5,
     title: "BeefSystem",
     description: `The BeefSystem is an application that control cattle fattening.`,
     techs: "ReactJS - Redux - Styled-Components - AdonisJS - NodeJS",
@@ -48,7 +54,7 @@ const posts = [
     look: "https://dashboard.beefsystem.com.br/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Tau Dynamix",
     description: `The Tau Dynamix is an application that was made by using React.`,
     techs: "ReactJS",
@@ -57,7 +63,7 @@ const posts = [
     look: "https://sid-online.com/login"
   },
   {
-    id: 6,
+    id: 7,
     title: "Domino's Backoffice",
     description: `The Domino's Backoffice is a project to list and manage orders for Domino's Brazil.`,
     techs: "ReactJS - Bootstrap - Redux - Saga",
@@ -66,7 +72,7 @@ const posts = [
     // look: "https://github.com/gguip"
   },
   {
-    id: 7,
+    id: 8,
     title: "Deliverize",
     description: `The Deliverize is a PDV (Ponto de Venda) project .`,
     techs: "ReactJS - Bootstrap - Redux - Saga - ElectronJS - Sass",

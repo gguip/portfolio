@@ -24,14 +24,17 @@ export default function PortfolioItem() {
                   <FaGithub size={20} color="#fff" />
                   Code
                 </Button>
-                <Button target="_blank" href={post.look}>
-                  {post.look === "" ? (
-                    <FaEyeSlash size={20} color="#fff" />
-                  ) : (
-                    <FaEye size={20} color="#fff" />
-                  )}
-                  Look
-                </Button>
+                {!!post.look && (
+                  <Button target="_blank" href={post.look}>
+                    {post.look === "" ? (
+                      <FaEyeSlash size={20} color="#fff" />
+                    ) : (
+                      <FaEye size={20} color="#fff" />
+                    )}
+                    Look
+                  </Button>
+
+                )}
               </div>
             </div>
           </div>
